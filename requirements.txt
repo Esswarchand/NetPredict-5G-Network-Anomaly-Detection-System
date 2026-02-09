@@ -1,0 +1,30 @@
+# Core
+python>=3.8
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+
+# MLOps
+mlflow>=1.24.0
+fastapi>=0.75.0
+uvicorn>=0.17.0
+pydantic>=1.9.0
+
+# Data Processing
+pyarrow>=7.0.0
+dvc>=2.10.0
+
+# Monitoring
+prometheus-client>=0.14.0
+grafana-api>=1.0.3
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Dev Tools
+jupyter>=1.0.0
+black>=22.0.0
+flake8>=4.0.0
+pre-commit>=2.17.0
