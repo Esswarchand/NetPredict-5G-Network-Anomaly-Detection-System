@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/eswar/OneDrive/Documents/job projects/NetPredict/NetPredict-5G-Network-Anomaly-Detection-System/mlruns/1/models/m-d6d0e617867f461babfe10c93a6c7b5f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.25
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.0
+mlflow_version: 3.1.4
+model_id: m-d6d0e617867f461babfe10c93a6c7b5f
+model_size_bytes: 81336
+model_uuid: m-d6d0e617867f461babfe10c93a6c7b5f
+prompts: null
+run_id: febc35041433457e8844d77deeda4c68
+utc_time_created: '2026-02-09 18:37:36.733555'

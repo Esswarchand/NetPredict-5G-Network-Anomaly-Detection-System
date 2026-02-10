@@ -1,0 +1,19 @@
+tracking:
+  uri: "sqlite:///mlflow/mlruns.db"
+  artifact_location: "./mlflow/artifacts"
+  
+experiment:
+  name: "5g_anomaly_detection"
+  tags:
+    project: "NetPredict"
+    domain: "Telecom"
+    team: "MLOps"
+    
+model_registry:
+  name: "NetworkAnomalyModel"
+  stages: ["Staging", "Production", "Archived"]
+  
+training:
+  n_trials: 30
+  cv_folds: 3
+  random_state: 42
